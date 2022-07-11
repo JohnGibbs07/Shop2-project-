@@ -46,6 +46,7 @@ height: 60px;
     background: none;
     color: #a9a9a9;
     outline: none;
+    margin-left: 40px;
 }
 
 .search-btn {
@@ -65,4 +66,35 @@ height: 60px;
 
 .search-box::placeholder{
 color: #a9a9a9;
+}
+
+.nav-items a {
+margin-left: 20px;
+}
+
+.nav-items a img {
+    width: 30px;
+}
+
+.links-container{
+    width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px solid #d1d1d1;
+}
+
+.link {
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #383838;
+    opacity: 0.5;
+    transition: .5s;
+}
+
+.link:hover {
+    opacity: 1;
 }
