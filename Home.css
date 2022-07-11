@@ -98,3 +98,13 @@ margin-left: 20px;
 .link:hover {
     opacity: 1;
 }
+
+.hero{
+    width: 100%;
+    height:calc(100vh - 120px);
+    background-image : url('back.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
