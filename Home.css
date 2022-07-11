@@ -153,8 +153,8 @@ text-transform: capitalize;
 
 .product-card {
     flex: 0 0 auto;
-    width: 240px;
-    height: 340px;
+    width: 250px;
+    height: 350px;
     margin-left: 40px;
 }
 
