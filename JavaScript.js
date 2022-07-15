@@ -1,4 +1,3 @@
-
 /* Home best selling scroll button */
 const productContainer = [...document.querySelectorAll('.product-container')];
 const preBtn = [...document.querySelectorAll('.pre-btn')];
@@ -65,14 +64,10 @@ const crateFooter = () =>  {
               </div><p class="footer-credit"> Clothing, Best apparels online store</p></>';
 '; 
 }
-
 /* toogle size button */
-
 const productImages = document.querySelectorAll(".product-image img");
 const productImagesSlide = document.querySelector(".image-slider");
-
 let activeImageSlide = 0;
-
 productImages.forEach((item, i) =>{
   item.addEventListener('click',() =>{
 productImages[activeImageSlide].classList.remove('active');
@@ -84,6 +79,8 @@ activeImageSlide =i;
 /* toggle size button */
 
 /* s to xxl buttons*/
+const sizeBtns = document.querySelectorAll('.size-radio-btn');
+let checkedBtn = 0;
 sizeBtns.forEach((item,i) =>{
     item.addEventListener('click', () => {
         sizeBtns[checkBtn].classList.remove('check');
