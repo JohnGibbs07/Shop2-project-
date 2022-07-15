@@ -236,7 +236,7 @@ padding-top: 10px;
     text-decoration: line-through;
 }
 
-.pre-btn, .nxt-btn {
+.pre-btn,.nxt-btn {
     border: none; 
     width: 10vw;
     height: 100%;

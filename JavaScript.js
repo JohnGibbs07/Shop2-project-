@@ -17,9 +17,6 @@ preBtn [i].addEventListener('click', () => {
     })
 })
 /* Home scroll button end  */
-
-
-/* Footer */
 const crateFooter = () =>  {
     let footer = document.querySelector('footer');
     footer.innerHTML = '  <div class="fotter-content">
@@ -68,5 +65,31 @@ const crateFooter = () =>  {
               </div><p class="footer-credit"> Clothing, Best apparels online store</p></>';
 '; 
 }
- createFooter();
-/* footer end */
+
+/* toogle size button */
+
+const productImages = document.querySelectorAll(".product-image img");
+const productImagesSlide = document.querySelector(".image-slider");
+
+let activeImageSlide = 0;
+
+productImages.forEach((item, i) =>{
+  item.addEventListener('click',() =>{
+productImages[activeImageSlide].classList.remove('active');
+item.classList.add('active');
+productImagesSlide.style.bacgroundImage = `url ('${item.src}')`;
+activeImageSlide =i;
+  })  
+})
+/* toggle size button */
+
+/* s to xxl buttons*/
+sizeBtns.forEach((item,i) =>{
+    item.addEventListener('click', () => {
+        sizeBtns[checkBtn].classList.remove('check');
+        item.classList.add('check');
+        checkedBtn = 1;
+    })
+})
+
+/*  s to xxl buttons end*/

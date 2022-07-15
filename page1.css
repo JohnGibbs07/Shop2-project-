@@ -97,3 +97,41 @@ opacity: 0.5;
    color: #383838;
    cursor: pointer;
 }
+
+.size-radio-btn.check {
+background: #383838;
+color: #fff;
+}
+
+.btn, .btn-cart-btn {
+    width: 48%;
+    padding: 20px;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid #383838;
+    color: #383838;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20 0;
+    text-transform: capitalize;
+}
+
+.cart-btn{
+    margin-right: 2%;
+    background: #383838;
+    color: #fff;
+}
+
+.deail-des {
+    padding: 0 10vw;
+    text-transform: capitalize;
+}
+
+.heading {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.des {
+    color: #383838;
+    line-height: 25px;
+}
